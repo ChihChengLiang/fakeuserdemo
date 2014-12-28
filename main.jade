@@ -1,8 +1,13 @@
 head
   title fakeuser demo
 body
-  h1 Fakeuser demo
-  +cards
+  .ui.grid
+    .two.wide.column
+    .twelve.wide.column
+      h1 Fakeuser demo
+      h3 The most bustling ghost town, ever! 
+      +cards
+    .two.wide.column
   
 template(name='cards')
   .ui.four.fluid.cards
